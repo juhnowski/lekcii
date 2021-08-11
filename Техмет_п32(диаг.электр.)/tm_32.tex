@@ -1,0 +1,67 @@
+% !TeX spellcheck = ru_RU-Russian
+\documentclass[11pt]{article}
+\usepackage{ucs} 
+\usepackage[utf8x]{inputenc} % Включаем поддержку UTF8  
+\usepackage[russian]{babel}  % Включаем пакет для поддержки русского языка 
+\usepackage {mathtext}
+\usepackage{mathrsfs, amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{revsymb}
+\usepackage{listings}
+\usepackage{longtable}
+\usepackage{float}
+\lstset{language=[90]Fortran,
+	basicstyle=\ttfamily,
+	keywordstyle=\color{red},
+	commentstyle=\color{green},
+	morecomment=[l]{!\ }% Comment only with space after !
+}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+\urlstyle{same}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.jpeg}
+
+\graphicspath{{pictures/}}
+\title{\textbf{Практическое занятие 2  \\ -- \\ 
+		История и методология развития методов электромагнитных полей}}
+\author{И.А.Юхновский}
+\date{2021}
+
+\begin{document}
+	
+	\maketitle
+	\thispagestyle{empty}
+	\section*{Аннотация}
+	Практическое занятие по теме лекции 2.3 История и методология развития методов электромагнитных полей
+	
+	\tableofcontents{}
+	
+	\section{Введение}
+ 	Цитата  ~\cite{kataev}.
+	
+	Рисунок
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{ris_1}
+		\caption{Пациент  П., 44 года. Обширные оростомы в околоушно-жевательных областях, парез лицевого нерва слева ~\cite{rsj}.}
+		\label{fig:ris_1}
+	\end{figure}
+	
+	\section{Выводы}
+	Вывод
+	
+	\section{Заключение}
+	Заключение
+	
+	\begin{thebibliography}{3}
+		\bibitem{kataev} Катаев С.С., Зеленина Н.Б., Шилова Е.А. Определение	дезоморфина в моче. Проблемы экспертизы в медицине.	2007; 1: 32-36 
+		
+	\end{thebibliography}
+	
+\end{document}	
